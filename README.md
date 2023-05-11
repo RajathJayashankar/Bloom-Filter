@@ -1,6 +1,8 @@
 # Bloom-Filter
 A sequential and parallel (GPU) implementation of Bloom Filter
 
+First download the sample insert.txt and lookups.txt files [here](https://drive.google.com/drive/folders/1UJcZkmYwIChn0KMl9feTpcr6REffXsiL?usp=sharing) (or create your own)
+
 Steps to run sequential (CPU) code
 
 1. `gcc -o seq_bloomfilter -std=c99 seq_bloomfilter.c `
